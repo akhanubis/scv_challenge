@@ -1,0 +1,1 @@
+def f(n);  return 0 if n == 0;  return 1 if n == 1;  f(n - 1) + f(n - 2);end;n = ARGV.shift;$stdout.puts f(n.to_i)
